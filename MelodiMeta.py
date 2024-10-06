@@ -2,7 +2,7 @@
 
 import os
 import sys
-import mutagen
+import mutagen # type: ignore
 
 def update_track_metadata(directory):
     for filename in os.listdir(directory):
